@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Projekt Rock-Paper-Scissors Revisited</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="gameName">Rock-Paper-Scissors (Revisited)</div>
+            <div class="scores">
+                <div>Player : <span id="scores__playerScore" class="scores__currentScore">0</span></div>
+                <div><h2>ROUND <span id="scores__roundNumber">0</span></h2></div>
+                <div>Computer : <span id="scores__computerScore" class="scores__currentScore">0</span></div>
+            </div>
+        </header>
+        <main>
+            <div class="gameTurn">
+                <div id="gameTurn__playerChoice"></div>
+                <div id="vs"><img src="./img/vs.png" alt="versus"></div>
+                <div id="gameTurn__computerChoice"></div>
+            </div>
+            <div>
+                <h2 id="winnerTextArea">&darr; Press button to start &darr;</h2>
+            </div>
+            <div class="buttons">
+                <button data-id="stone" id="buttons__stone">Stone</button>
+                <button data-id="scissors" id="buttons__scissors">Scissors</button>
+                <button data-id="paper" id="buttons__paper">Paper</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
