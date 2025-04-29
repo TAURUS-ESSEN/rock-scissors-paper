@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors (Revisited)
-https://taurus-essen.github.io/rock-scissors-paper/ 
+DEMO https://taurus-essen.github.io/rock-scissors-paper/ 
 ## Project Description
 This project is a game called "Rock-Paper-Scissors" with a revamped interface and improved logic. The game is developed using HTML, CSS, and JavaScript and represents a classic game with dynamic rendering on the screen.
 
